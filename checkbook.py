@@ -6,7 +6,8 @@ be used to store the float current_balance. If the variable current_balance does
 current_balance from the ledger.txt file. If the user enters 2, then the program will prompt the user with 'How much is the debit?\n\n' and the entered float will 
 be subtracted from the current_balance and saved as the new current_balance. If the user enters 3, then the program will prompt the user with 'How much is the 
 credit\n\n? and the entered float will be added to the current-balance and saved as the new current_balance. If the user enter 4, then the program will display 
-'Thanks, have a great day!\n' and exit back to the terminal prompt. The program needs to continue to loop until the user selects 4 for exit.
+'Thanks, have a great day!\n' and exit back to the terminal prompt. If the user enters any other response, then display 'That response is not allowed'. 
+The program needs to continue to loop until the user selects 4 to exit.
 
 '''
 
